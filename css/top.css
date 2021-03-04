@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'S-CoreDream-6Bold';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'S-CoreDream-4Regular';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'S-CoreDream-1Thin';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'S-CoreDream-5Medium';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+#top{
+	width: 100%;
+	margin: 0 auto;
+	
+	max-width: 1920px;
+	min-width: 1366px;
+	
+	font-family: 'S-CoreDream-4Regular';
+	font-size: 13px;
+	color: #1e1e1e;
+	
+	border-bottom: solid 1px #d0d2d6;
+	
+	z-index: 2;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+
+#top-nav{
+	width: 100%;
+	margin: 0 auto;
+	
+	max-width: 1920px;
+	min-width: 1366px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	height: 60px;
+}
+
+#top-nav a{
+	text-decoration: none;
+	color: #1e1e1e;
+}
+
+#top-nav a:visited{
+	text-decoration: none;
+}
+
+#top-nav-l{
+	width: 30%;
+	
+	display: flex;
+	justify-content: flex-start;
+	
+	margin-left: 35px;
+}
+
+#top-nav-l a{
+	color: #564ec8;
+}
+
+#top-nav-r a{
+	color: #888;
+}
+
+#top-nav-m{
+	width: 40%;
+	text-align: center;
+}
+
+#top-nav-r{
+	width: 30%;
+	
+	display: flex;
+	justify-content: flex-end;
+	
+	margin-right: 35px;
+}
+
+#top-nav-m a{
+	margin: 0px 16px;
+}
+
+#top-nav-m a:hover{
+	color: #564ec8;
+}
+
+#top-nav-m a:nth-child(3){
+	color: #888;
+}
+
+#top-nav-m a:nth-child(4){
+	color: #888;
+}
+
+#top-nav-m span{
+	margin-left: 4px;
+	vertical-align: top;
+}
