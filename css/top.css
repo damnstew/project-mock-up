@@ -36,6 +36,14 @@
      font-style: normal;
 }
 
+.logo{
+	width: 150px;
+	height: 60px;
+	
+	/* background-image: url("../images/logo-t.svg"); */
+	background-repeat: no-repeat;
+}
+
 #top{
 	width: 100%;
 	margin: 0 auto;
