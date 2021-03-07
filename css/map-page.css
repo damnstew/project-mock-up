@@ -374,3 +374,33 @@
 .select-box-hover-ac-plus{
 	margin-left: -170px;
 }
+
+.list-images-1{
+	background-image: url("../images/t-t/furniture-998265_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.list-images-2{
+	background-image: url("../images/t-t/kara-eads-L7EwHkq1B2s-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.list-images-3{
+	background-image: url("../images/t-t/living-room-2732939_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.list-images-4{
+	background-image: url("../images/t-t/naomi-hebert-MP0bgaS_d1c-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.list-images-5{
+	background-image: url("../images/t-t/roberto-nickson-bwIqQ5qQhXs-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+}
